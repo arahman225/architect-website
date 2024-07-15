@@ -210,12 +210,26 @@
     }
 }
 
-@media screen and(min-width:577px) and (max-width:992px) {
+@media screen and (min-width:577px) and (max-width:992px) {
     .navbar{
-        flex-direction: column;
+        flex-direction: row;
     }
     .display-flex{
+        flex-direction: row;
+    }
+
+
+    .teams{
         flex-direction: column;
+    }
+    .feature-content{
+        
+        margin-left: 50px;
+    }
+    .display-grid{
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        margin-left: -25px;
     }
 }
 
