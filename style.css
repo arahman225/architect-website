@@ -145,6 +145,10 @@
     margin-top: 10px;
 }
 
+
+.face-description{
+    max-width: 540px;
+}
 /* some fact end */
 
 
@@ -206,7 +210,14 @@
     }
 }
 
-
+@media screen and(min-width:577px) and (max-width:992px) {
+    .navbar{
+        flex-direction: column;
+    }
+    .display-flex{
+        flex-direction: column;
+    }
+}
 
 
 
